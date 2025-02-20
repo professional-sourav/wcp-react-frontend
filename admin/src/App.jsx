@@ -10,7 +10,7 @@ const App = () => {
             <TopBarComponent />
             <div className="container">
                 <h1>{message}</h1>
-                <button onClick={() => setMessage('Hello React !')}>Change message</button>
+                <button onClick={() => setMessage('Hello React')}>Change message</button>
             </div>
         </>
     );
